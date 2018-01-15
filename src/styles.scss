@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+app-header {
+    padding: 10px 0px;
+    background-color: #666;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+app-navigation {
+    margin-bottom: 5px;
+    background-color: #aaa;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+app-main-content {
+    padding: 500px 0px;
+    margin: 5px;
+    background-color: #666;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+app-sidebar {
+    padding: 500px 0px;
+    margin: 5px;
+    background-color: #666;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+app-footer {
+    margin-top: 5px;
+    background-color: #666;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
